@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white border-b border-gray-200 px-4 md:px-8 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="text-xl font-bold text-[#1a2e2a]">KeenKeeper</div>
+        <div className="text-2xl font-bold text-[#1a2e2a]">Keen<span className='font-medium text-[#244d3f]'>Keeper</span></div>
         <div className="flex items-center gap-1 sm:gap-4">
           {navItems.map((item) => (
             <MyLink key={item.name} href={item.path} iconName={item.iconName}>

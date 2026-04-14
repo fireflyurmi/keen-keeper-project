@@ -21,7 +21,7 @@ export default function MyLink({ href, children, iconName }) {
       href={href}
       className={`flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all ${
         isActive
-          ? 'bg-[#1e3a34] text-white'
+          ? 'bg-[#244d3f] text-white'
           : 'text-gray-500 hover:bg-gray-100 hover:text-gray-900'
       }`}
     >
