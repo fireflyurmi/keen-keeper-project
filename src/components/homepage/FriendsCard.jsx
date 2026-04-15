@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function FriendsCard({ friend }) {
   const getStatusColor = (status) => {
     switch (status) {
-      case "on-track": return "bg-green-100 text-green-700";
-      case "almost due": return "bg-yellow-100 text-yellow-700";
-      case "overdue": return "bg-red-100 text-red-700";
+      case "on-track": return "bg-[#244d3f] text-white";
+      case "almost due": return "bg-[#efad44] text-white";
+      case "overdue": return "bg-[#ef4444] text-white";
       default: return "bg-gray-100 text-gray-700";
     }
   };
