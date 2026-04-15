@@ -2,7 +2,7 @@
 
 export default function Banner() {
   return (
-    <section className="bg-[#f8fafc] py-16 px-4 text-center">
+    <section className="bg-[#f8fafc] py-10 text-center max-w-7xl mx-auto px-4">
       <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
         Friends to keep close in your life
       </h1>
@@ -13,7 +13,7 @@ export default function Banner() {
         + Add a Friend
       </button>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
         <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
           <div className="text-4xl font-bold text-[#244d3f] mb-2">10</div>
           <div className="text-gray-500 font-medium text-sm">Total Friends</div>
