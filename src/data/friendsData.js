@@ -21,7 +21,7 @@ export const friendsData = [
     "status": "almost due",
     "tags": ["gym"],
     "bio": "Gym partner. We attend fitness sessions regularly.",
-    "goal": 14,
+    "goal": 20,
     "next_due_date": "2025-07-20"
   },
   {
@@ -45,7 +45,7 @@ export const friendsData = [
     "status": "overdue",
     "tags": ["business"],
     "bio": "Business associate. We discuss deals and partnerships.",
-    "goal": 14,
+    "goal": 25,
     "next_due_date": "2025-07-15"
   },
   {
@@ -57,7 +57,7 @@ export const friendsData = [
     "status": "almost due",
     "tags": ["online friend"],
     "bio": "Connected through a design platform. Share UI/UX feedback.",
-    "goal": 14,
+    "goal": 30,
     "next_due_date": "2025-07-19"
   },
   {
@@ -69,7 +69,7 @@ export const friendsData = [
     "status": "on-track",
     "tags": ["college", "friend"],
     "bio": "College friend. We studied computer science together.",
-    "goal": 14,
+    "goal": 15,
     "next_due_date": "2025-07-23"
   },
   {
@@ -81,7 +81,7 @@ export const friendsData = [
     "status": "overdue",
     "tags": ["mentor"],
     "bio": "Career mentor. He guided me in professional growth.",
-    "goal": 14,
+    "goal": 12,
     "next_due_date": "2025-07-17"
   },
   {
@@ -105,7 +105,7 @@ export const friendsData = [
     "status": "almost due",
     "tags": ["travel", "hobby"],
     "bio": "Travel companion. Explored different places together.",
-    "goal": 14,
+    "goal": 21,
     "next_due_date": "2025-07-21"
   },
   {
