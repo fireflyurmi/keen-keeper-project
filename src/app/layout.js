@@ -11,6 +11,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata = {
   title: "KeenKeeper",
   description: "Keep Your Friendships Alive",
+  icons: {
+    icon: "/favicon.ico", 
+  },
 };
 
 export default function DashboardLayout({ children }) {
