@@ -1,6 +1,7 @@
 "use client";
+import dynamic from 'next/dynamic';
 
-import HashLoader from "react-spinners/HashLoader";
+const HashLoader = dynamic(() => import('react-spinners/HashLoader'), { ssr: false });
 
 export default function Loader() {
   return (
