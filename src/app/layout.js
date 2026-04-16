@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 import { Toaster } from "react-hot-toast";
+import Providers from "@/lib/providers";                    
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -18,9 +19,13 @@ export default function DashboardLayout({ children }) {
       <body className="min-h-full flex flex-col bg-gray-50 text-slate-900">
         <Navbar />
         <Toaster position="top-right"/>
-        <main className="grow">
-          {children}
-        </main>
+        
+        <Providers>           
+          <main className="grow">
+            {children}
+          </main>
+        </Providers>
+
         <Footer/>
       </body>
     </html>

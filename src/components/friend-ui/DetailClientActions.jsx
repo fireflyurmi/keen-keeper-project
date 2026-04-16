@@ -4,9 +4,11 @@ import { useState } from 'react';
 import { BiPhoneCall } from 'react-icons/bi';
 import { MdOutlineTextsms } from 'react-icons/md';
 import { PiVideoCameraBold } from 'react-icons/pi';
+import { useGlobalInteractions } from '@/lib/context/InteractionContext';   // ← Added
 
 export default function DetailClientActions({ name }) {
   const [interactions, setInteractions] = useState([]);
+  const { addGlobalInteraction } = useGlobalInteractions();   // ← Added
 
   const handleAction = (type) => {
     const newEntry = {
@@ -26,6 +28,10 @@ export default function DetailClientActions({ name }) {
     };
 
     setInteractions(prev => [newEntry, ...prev]);
+    
+    // Add to global timeline (for Timeline page)
+    addGlobalInteraction(type, name);     // ← Only this line added
+
     toast.success(`${type} with ${name} added!`);
   };
 
@@ -67,6 +73,7 @@ export default function DetailClientActions({ name }) {
           <span className="text-sm font-medium text-gray-700">Video</span>
         </button>
       </div>
+
       {interactions.length > 0 && (
         <div className="mt-8 pt-6 border-t border-gray-100">
           <div className="flex justify-between items-center mb-5">

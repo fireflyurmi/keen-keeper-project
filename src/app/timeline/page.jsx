@@ -1,17 +1,10 @@
-import React from 'react';
-
+import ClientTimeline from './client-page';
 
 export const metadata = {
   title: "KeenKeeper || Timeline",
-  description: "Keep Your Friendships Alive",
+  description: "Keep Your Friendships Alive - View all your interactions",
 };
 
-const TimelinePage = () => {
-    return (
-        <div>
-            timeline-page
-        </div>
-    );
-};
-
-export default TimelinePage;
+export default function TimelinePage() {
+  return <ClientTimeline />;
+}

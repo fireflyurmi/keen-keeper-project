@@ -46,8 +46,11 @@ export default async function FriendDetailPage({ params }) {
                 </span>
               ))}
             </div>
-            <p className="mt-7 text-gray-600 leading-relaxed text-[15px] px-4">
+            <p className="mt-3 text-gray-600 leading-relaxed text-[15px] px-4">
               {friend.bio}
+            </p>
+            <p className="mt-3 text-gray-600 leading-relaxed text-[15px] px-4">
+              {friend.email}
             </p>
           </div>
           <div className="mt-10 space-y-3">

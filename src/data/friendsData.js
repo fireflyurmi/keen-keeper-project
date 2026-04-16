@@ -8,7 +8,7 @@ export const friendsData = [
     "days_since_contact": 18,
     "status": "overdue",
     "tags": ["work"],
-    "bio": "Worked together in a tech company. He handled backend systems.",
+    "bio": "\"Worked together in a tech company. He handled backend systems.\"",
     "goal": 14,
     "next_due_date": "2025-07-16"
   },
@@ -20,7 +20,7 @@ export const friendsData = [
     "days_since_contact": 12,
     "status": "almost due",
     "tags": ["gym"],
-    "bio": "Gym partner. We attend fitness sessions regularly.",
+    "bio": "\"Gym partner. We attend fitness sessions regularly.\"",
     "goal": 20,
     "next_due_date": "2025-07-20"
   },
@@ -32,7 +32,7 @@ export const friendsData = [
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["hobby", "photography"],
-    "bio": "Met in a photography club. We love capturing nature.",
+    "bio": "\"Met in a photography club. We love capturing nature.\"",
     "goal": 10,
     "next_due_date": "2025-07-25"
   },
@@ -44,7 +44,7 @@ export const friendsData = [
     "days_since_contact": 20,
     "status": "overdue",
     "tags": ["business"],
-    "bio": "Business associate. We discuss deals and partnerships.",
+    "bio": "\"Business associate. We discuss deals and partnerships.\"",
     "goal": 25,
     "next_due_date": "2025-07-15"
   },
@@ -56,7 +56,7 @@ export const friendsData = [
     "days_since_contact": 13,
     "status": "almost due",
     "tags": ["online friend"],
-    "bio": "Connected through a design platform. Share UI/UX feedback.",
+    "bio": "\"Connected through a design platform. Share UI/UX feedback.\"",
     "goal": 30,
     "next_due_date": "2025-07-19"
   },
@@ -68,7 +68,7 @@ export const friendsData = [
     "days_since_contact": 7,
     "status": "on-track",
     "tags": ["college", "friend"],
-    "bio": "College friend. We studied computer science together.",
+    "bio": "\"College friend. We studied computer science together.\"",
     "goal": 15,
     "next_due_date": "2025-07-23"
   },
@@ -80,7 +80,7 @@ export const friendsData = [
     "days_since_contact": 16,
     "status": "overdue",
     "tags": ["mentor"],
-    "bio": "Career mentor. He guided me in professional growth.",
+    "bio": "\"Career mentor. He guided me in professional growth.\"",
     "goal": 12,
     "next_due_date": "2025-07-17"
   },
@@ -92,7 +92,7 @@ export const friendsData = [
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["neighbor"],
-    "bio": "Lives nearby. We often chat during evening walks.",
+    "bio": "\"Lives nearby. We often chat during evening walks.\"",
     "goal": 7,
     "next_due_date": "2025-07-22"
   },
@@ -104,7 +104,7 @@ export const friendsData = [
     "days_since_contact": 11,
     "status": "almost due",
     "tags": ["travel", "hobby"],
-    "bio": "Travel companion. Explored different places together.",
+    "bio": "\"Travel companion. Explored different places together.\"",
     "goal": 21,
     "next_due_date": "2025-07-21"
   },
@@ -116,7 +116,7 @@ export const friendsData = [
     "days_since_contact": 22,
     "status": "overdue",
     "tags": ["friend"],
-    "bio": "Close friend. We often catch up over coffee and chats.",
+    "bio": "\"Close friend. We often catch up over coffee and chats.\"",
     "goal": 14,
     "next_due_date": "2025-07-14"
   }
