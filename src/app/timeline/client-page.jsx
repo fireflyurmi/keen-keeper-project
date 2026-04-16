@@ -24,7 +24,21 @@ export default function ClientTimeline() {
     <main className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen">
       <h1 className="text-4xl font-bold text-gray-900 mb-8">Timeline</h1>
       
-      
+      <div className="mb-8">
+        <select
+          value={selectedFilter}
+          onChange={(e) => setSelectedFilter(e.target.value)}
+          className="w-full md:w-72 px-5 py-3.5 border border-gray-200 rounded-2xl bg-white 
+                     focus:outline-none focus:border-[#244d3f] focus:ring-1 focus:ring-[#244d3f]
+                     text-gray-700 text-base cursor-pointer"
+        >
+          {filterOptions.map((option) => (
+            <option key={option} value={option}>
+              {option === 'All' ? 'Filter Timeline' : `Filter by ${option}`}
+            </option>
+          ))}
+        </select>
+      </div>
 
       <div className="space-y-3">
         {displayedInteractions.length === 0 ? (
