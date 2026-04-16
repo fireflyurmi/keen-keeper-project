@@ -3,7 +3,7 @@
 export default function Banner() {
   return (
     <section className="bg-[#f8fafc] py-10 text-center max-w-7xl mx-auto px-4">
-      <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
+      <h1 className="text-4xl font-bold text-slate-900 mb-4">
         Friends to keep close in your life
       </h1>
       <p className="text-slate-500 max-w-md mx-auto mb-8">
@@ -34,7 +34,7 @@ export default function Banner() {
           <div className="text-gray-500 font-medium text-sm">Interactions This Month</div>
         </div>
       </div>
-      <div className="max-w-5xl mx-auto mt-10 border-b-2 border-gray-200"></div>
+      <div className="max-w-7xl mx-auto mt-10 border-b-2 border-gray-200"></div>
     </section>
   );
 }

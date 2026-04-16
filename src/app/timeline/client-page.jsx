@@ -21,7 +21,7 @@ export default function ClientTimeline() {
   };
 
   return (
-    <main className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen">
+    <main className="max-w-7xl mx-auto p-6 bg-[#f8fafc] min-h-screen mb-10">
       <h1 className="text-4xl font-bold text-gray-900 mb-8">Timeline</h1>
       
       <div className="mb-8">

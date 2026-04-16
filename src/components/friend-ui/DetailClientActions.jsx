@@ -46,7 +46,7 @@ export default function DetailClientActions({ name }) {
 
   return (
     <div className="bg-white p-6 rounded-2xl border border-gray-100">
-      <h3 className="font-bold text-lg mb-6 text-gray-900">Quick Check-In</h3>
+      <h3 className="font-bold text-lg mb-6 text-[#244d3f]">Quick Check-In</h3>
 
       <div className="grid grid-cols-3 gap-4">
         <button
@@ -77,7 +77,7 @@ export default function DetailClientActions({ name }) {
       {interactions.length > 0 && (
         <div className="mt-8 pt-6 border-t border-gray-100">
           <div className="flex justify-between items-center mb-5">
-            <h3 className="font-bold text-lg text-gray-900">Recent Interactions</h3>
+            <h3 className="font-bold text-lg text-[#244d3f]">Recent Interactions</h3>
             <span className="text-xs text-gray-500">Latest first</span>
           </div>
 

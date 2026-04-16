@@ -1,16 +1,11 @@
-import React from 'react';
+// src/app/stats/page.jsx   ← Server Component
+import ClientStats from './client-page';
 
 export const metadata = {
   title: "KeenKeeper || Stats",
-  description: "Keep Your Friendships Alive",
+  description: "Friendship Analytics - Keep Your Friendships Alive",
 };
 
-const StatsPage = () => {
-    return (
-        <div>
-            stats-page
-        </div>
-    );
-};
-
-export default StatsPage;
+export default function StatsPage() {
+  return <ClientStats />;
+}

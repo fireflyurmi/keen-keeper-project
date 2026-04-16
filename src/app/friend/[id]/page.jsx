@@ -15,7 +15,7 @@ export default async function FriendDetailPage({ params }) {
   }
 
   return (
-    <main className="max-w-7xl mx-auto p-6 bg-gray-50 mb-15">
+    <main className="max-w-7xl mx-auto p-6 bg-[#f8fafc] mb-15">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         <div className="lg:col-span-5 bg-white rounded-3xl p-8 border border-gray-100">
           <div className="flex flex-col items-center text-center">
@@ -86,7 +86,7 @@ export default async function FriendDetailPage({ params }) {
           <div className="bg-white p-6 rounded-2xl border border-gray-100 flex justify-between items-center">
             <div>
               <h3 className="font-bold text-lg text-[#244d3f]">Relationship Goal</h3>
-              <p className="text-gray-600 mt-1">
+              <p className="text-gray-500 mt-1 font-normal">
                 Connect every <span className="font-bold">{friend.goal} days</span>
               </p>
             </div>
