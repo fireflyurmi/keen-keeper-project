@@ -1,4 +1,3 @@
-// src/data/friendsData.js
 export const friendsData = [
   {
     "id": 1,

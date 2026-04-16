@@ -1,4 +1,3 @@
-// src/app/stats/page.jsx   ← Server Component
 import ClientStats from './client-page';
 
 export const metadata = {

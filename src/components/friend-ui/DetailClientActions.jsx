@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { BiPhoneCall } from 'react-icons/bi';
 import { MdOutlineTextsms } from 'react-icons/md';
 import { PiVideoCameraBold } from 'react-icons/pi';
-import { useGlobalInteractions } from '@/lib/context/InteractionContext';   // ← Added
+import { useGlobalInteractions } from '@/lib/context/InteractionContext';   
 
 export default function DetailClientActions({ name }) {
   const [interactions, setInteractions] = useState([]);
-  const { addGlobalInteraction } = useGlobalInteractions();   // ← Added
+  const { addGlobalInteraction } = useGlobalInteractions();   
 
   const handleAction = (type) => {
     const newEntry = {
@@ -28,9 +28,7 @@ export default function DetailClientActions({ name }) {
     };
 
     setInteractions(prev => [newEntry, ...prev]);
-    
-    // Add to global timeline (for Timeline page)
-    addGlobalInteraction(type, name);     // ← Only this line added
+    addGlobalInteraction(type, name);     
 
     toast.success(`${type} with ${name} added!`);
   };

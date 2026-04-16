@@ -17,7 +17,6 @@ export default function Footer() {
         <h2 className="text-xs sm:text-sm font-semibold mb-3 sm:mb-4">
           Social Links
         </h2>
-
         <div className="flex justify-center gap-3 sm:gap-4 mb-8 sm:mb-10">
           {[instagramIcon, facebookIcon, twitterIcon].map((icon, idx) => (
             <div
@@ -28,15 +27,11 @@ export default function Footer() {
             </div>
           ))}
         </div>
-
         <div className="border-t border-gray-500 my-6 sm:my-8"></div>
-
         <div className="flex flex-col sm:flex-row justify-between items-center text-[10px] sm:text-xs text-gray-400 gap-3 sm:gap-4">
-          
           <p className="text-center sm:text-left">
             © 2026 KeenKeeper. All rights reserved.
           </p>
-
           <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy

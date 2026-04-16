@@ -1,5 +1,3 @@
-// src/components/homepage/Banner.jsx
-
 export default function Banner() {
   return (
     <section className="bg-[#f8fafc] py-10 text-center max-w-7xl mx-auto px-4">
