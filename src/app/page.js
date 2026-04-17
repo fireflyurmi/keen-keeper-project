@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';   
-
 import { Suspense } from "react";
 import Banner from "@/components/homepage/Banner";
 import FriendsList from "@/components/homepage/FriendsList";
@@ -20,3 +18,4 @@ export default function Home() {
     </main>
   );
 }
+export const dynamic = 'force-dynamic';
