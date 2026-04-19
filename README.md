@@ -32,7 +32,7 @@ We rely on a robust tech stack to provide a lightning-fast and visually rich use
 
 ---
 
-## 📸 App Screenshots
+## 📸 Previews of the App
 <div align="center">
 <table border="0">
 <tr>
