@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🌿 KeenKeeper
-### *Keep Your Friendships Alive, Effortlessly.*
+### *Keep Your Friendship Alive, Effortlessly.*
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)]()
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwind-css)]()
@@ -28,8 +28,35 @@ We rely on a robust tech stack to provide a lightning-fast and visually rich use
 | **Tailwind CSS** | Crafting a modern, responsive interface |
 | **DaisyUI** | High-quality UI components for a polished design |
 | **Recharts** | Visualizing interaction patterns with elegant PieCharts |
-| **Hash-loader** | Efficient asset hashing and optimized performance |
 | **Context API** | Managing dynamic interaction states globally |
+
+---
+
+## 📸 App Screenshots
+<div align="center">
+<table border="0">
+<tr>
+<td width="50%">
+<img src="./preview.png" alt="Dashboard Overview" width="100%">
+<p align="center"><em>1. Dashboard Overview</em></p>
+</td>
+<td width="50%">
+<img src="./preview%20(4).png" alt="Friendship Analytics" width="100%">
+<p align="center"><em>2. Friendship Analytics</em></p>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<img src="./preview%20(3).png" alt="Interaction Timeline" width="100%">
+<p align="center"><em>3. Interaction Timeline</em></p>
+</td>
+<td width="50%">
+<img src="./preview%20(2).png" alt="Friend Detail Page" width="100%">
+<p align="center"><em>4. Friend Detail Page</em></p>
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
@@ -55,4 +82,4 @@ Unlock deeper insights into your social habits. Our dedicated Stats page provide
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/fireflyurmi/keen-keeper-project.git](https://github.com/fireflyurmi/keen-keeper-project)
+   git clone [https://github.com/fireflyurmi/keen-keeper-project.git](https://github.com/fireflyurmi/keen-keeper-project.git)
